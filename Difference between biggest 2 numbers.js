@@ -25,4 +25,3 @@ console.log(diffBig2([2, 1])); //1
 console.log(diffBig2([8, 3, 1])); //5
 console.log(diffBig2([1, 8, 3])); //5
 console.log(diffBig2([100, 100])); //0
-console.log(diffBig2([1, 2, 10, 3, 4, 5, 6, 7, 8, 9, 10])); //5
