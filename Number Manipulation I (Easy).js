@@ -28,4 +28,4 @@ console.log(manipulate(192827764920)); //192827000000
 console.log(manipulate(838473)); //838000
 console.log(manipulate(8173648710293847)); //8173648700000000
 console.log(manipulate(938473)); //938000
-console.log(manipulate(6674493)); //938000
+console.log(manipulate(6674493)); //6670000
