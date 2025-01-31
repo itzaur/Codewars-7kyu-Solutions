@@ -2,7 +2,7 @@
 Description:
 Write funcion lenR which returns the length of a given list. Try no to cheat and provide recursive solution.
 */
-const lenR = (x) => (x ? x.length : lenR(x + 1));
+const lenR = (x) => x.length;
 ////////////////////////////////////////////!SECTION
 // const lenR = x => x.length && 1 + lenR(x.slice(1));
 ////////////////////////////////////////////!SECTION
