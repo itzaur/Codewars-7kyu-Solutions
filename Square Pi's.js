@@ -27,4 +27,3 @@ function squarePi(digits) {
 
 console.log(squarePi(5)); //8
 console.log(squarePi(10)); //15
-console.log(squarePi(100)); //15
