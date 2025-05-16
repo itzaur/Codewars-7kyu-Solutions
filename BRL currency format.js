@@ -23,4 +23,4 @@ function currencyBRL(number) {
 
 console.log(currencyBRL()); //'R$ 0,00'
 console.log(currencyBRL(10)); //'R$ 10,00'
-console.log(currencyBRL(10.5)); //'R$ 10,00'
+console.log(currencyBRL(10.5)); //'R$ 10,50'
