@@ -1,0 +1,33 @@
+/*
+Description:
+
+Your task it to return true if the fractional part (rounded to 1 digit) of the result (a / b) exists, more than 0 and is multiple of n. Otherwise return false. (For Python return True or False)
+
+All arguments are positive digital numbers.
+
+Rounding works like toFixed() method. (if more than...5 rounds up)
+
+Find exapmles below:
+
+
+isMultiple(5, 2, 3) -> false // 2.5 -> 5 is not multiple of 3
+isMultiple(5, 3, 4) -> false // 1.7 -> 7 is not multiple of 4
+isMultiple(5, 4, 3) -> true // 1.3 -> 3 is multiple of 3
+isMultiple(666, 665, 2) -> false // 1.0 -> return false
+*/
+function isMultiple(a, b, n) {
+  const result = Math.round(((a / b) % 1) * 10);
+
+  if (result >= 10) return false;
+
+  return result > 0 && result % n === 0;
+  //////////////////////////////////!SECTION
+  //   var r = (Math.round((a * 10) / b) % 10) | 0;
+  //   return r > 0 && r % n === 0;
+}
+
+console.log(isMultiple(5, 2, 3)); //false
+console.log(isMultiple(5, 3, 4)); //false
+console.log(isMultiple(5, 4, 3)); //true
+console.log(isMultiple(666, 665, 2)); //false
+console.log(isMultiple(3691401, 1892272, 5)); //false
