@@ -18,4 +18,3 @@ function textin(s) {
 console.log(textin('I love to text')); //'I love 2 text'
 console.log(textin('see you tomorrow')); //'see you 2morrow'
 console.log(textin('look at that octopus')); //'look at that oc2pus'
-console.log(textin('VwUtooOOVTUUtVUtWVowTVowtOWoVOXUVt')); //'look at that oc2pus'
